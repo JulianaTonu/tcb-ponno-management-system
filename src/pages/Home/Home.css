@@ -1,0 +1,62 @@
+ 
+ .button{
+    /* background-image: linear-gradient(to bottom,#befe7f 0%, #85fa53 100%); */
+    background-image: linear-gradient(to bottom,#2dcd7c 0%, #2dcd7c 100%);
+   
+    border: none;
+    border-radius: 8px;
+    padding: 12px 30px;
+}
+.button:hover{
+    background-image: linear-gradient(to bottom,rgb(15, 5, 72) 0%, rgb(15, 5, 72) 100%);
+   
+}
+ .img2{
+width: 400px;
+}
+
+@media  only screen and (max-width: 500px) {
+    .img2 {
+        width: 250px;
+    }
+}
+
+/* //section2 */
+.user{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    margin-left: 90px;
+    bottom: 40px;
+    background-color: #ffffff;
+
+}
+
+
+@media  only screen and (max-width: 500px) {
+    .user {
+        position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    margin-left: 90px;
+    bottom: 5px;
+    background-color: #ffffff;
+    }
+
+    .nibondhon{
+      
+        padding: 4px 4px;
+        margin:15px 0px
+    }
+}
+
+
+/* // form  */
+
+.background{
+    background-color: #2dcd7c;
+}
